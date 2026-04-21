@@ -1,175 +1,156 @@
-<!-- Animated Header Banner -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=DSA%20Preparation%20%F0%9F%9A%80&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=FAANG-Level%20Interview%20Mastery%20%7C%20By%20Manikant%20Kumar&descAlignY=58&descSize=18&animation=fadeIn" />
-</p>
+# DSA Preparation for FAANG
 
-<!-- Badges Row -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java&logoColor=white" />
-  <img src="https://img.shields.io/badge/Level-Beginner%20to%20Advanced-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Goal-FAANG%20Ready-green?style=for-the-badge&logo=leetcode&logoColor=white" />
-  <img src="https://img.shields.io/badge/Duration-90%20Days-red?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" />
-</p>
+Structured topic-by-topic DSA preparation with Java solutions, notes, and LeetCode progress tracking.
 
----
+[![Language](https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=openjdk&logoColor=white)](#)
+[![Goal](https://img.shields.io/badge/Goal-FAANG%20Ready-green?style=for-the-badge&logo=leetcode&logoColor=white)](#)
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)](#)
+[![LeetCode](https://img.shields.io/badge/LeetCode-manikantbindass-yellow?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/manikantbindass/)
 
-## 🧭 About This Repository
+## About
 
-> **A structured, topic-by-topic DSA preparation guide** designed to take you from absolute beginner to FAANG-interview-ready in **90 days**. Each folder contains clean, well-commented Java solutions with time & space complexity analysis.
+This repository is a practical DSA preparation tracker. It combines clean Java implementations, pattern notes, and public LeetCode progress for the profile [`manikantbindass`](https://leetcode.com/u/manikantbindass/).
 
----
+## Repository Structure
 
-## 📁 Repository Structure
-
-```
-DSA-Prep/
-│
-├── Arrays/           → Subarray problems, sorting, searching
-│   ├── TwoSum.java
-│   ├── Kadane.java
-│
-├── Strings/          → Manipulation, pattern matching
-│   ├── LongestSubstring.java
-│
-├── SlidingWindow/    → Fixed & variable window problems
-│
-├── LinkedList/       → Reversal, cycle detection, merging
-│
-├── Trees/            → BST, traversals, LCA, height
-│
-├── Graphs/           → BFS, DFS, Dijkstra, Topological Sort
-│
-├── DP/               → Memoization, tabulation, classic problems
-│
-├── Notes/            → Pattern notes & complexity cheat sheets
-│   ├── patterns.md
-│   ├── cheat_sheet.md
-│
-└── README.md
+```text
+DSA-Preparation-FAANG-/
+|-- Arrays/
+|   |-- TwoSum.java
+|   `-- Kadane.java
+|-- Strings/
+|   `-- LongestSubstring.java
+|-- SlidingWindow/
+|-- LinkedList/
+|-- Trees/
+|-- Graphs/
+|-- DP/
+|-- Notes/
+|   |-- patterns.md
+|   `-- cheat_sheet.md
+`-- README.md
 ```
 
----
+## LeetCode Progress
 
-## 📌 Topics Covered
+Last synced: 2026-04-22, Asia/Calcutta
+
+| Metric | Progress |
+|---|---:|
+| Total solved | 52 |
+| Goal progress | 52 / 300, 17.3% |
+| Easy | 12 solved |
+| Medium | 30 solved |
+| Hard | 10 solved |
+| Failed attempts still open | 2 Hard |
+| Global rank | 2,457,782 |
+
+![Overall Goal Progress](https://progress-bar.xyz/17/?scale=100&title=Goal+52%2F300&width=500&color=1dd1a1&suffix=%25)
+
+## Difficulty Breakdown
+
+| Difficulty | Solved | Total LeetCode Questions | Platform Coverage |
+|---|---:|---:|---:|
+| Easy | 12 | 938 | 1.3% |
+| Medium | 30 | 2,044 | 1.5% |
+| Hard | 10 | 924 | 1.1% |
+| All | 52 | 3,906 | 1.3% |
+
+## Language Stats
+
+| Language | Problems Solved |
+|---|---:|
+| Java | 45 |
+| Go | 6 |
+| C++ | 1 |
+
+## Topic Coverage From LeetCode Tags
+
+| Topic | Problems Solved |
+|---|---:|
+| Array | 33 |
+| String | 13 |
+| Two Pointers | 11 |
+| Math | 8 |
+| Hash Table | 7 |
+| Sorting | 7 |
+| Binary Search | 6 |
+| Dynamic Programming | 6 |
+| Linked List | 5 |
+| Recursion | 5 |
+| Matrix | 5 |
+| Stack | 4 |
+| Backtracking | 4 |
+| Simulation | 3 |
+| Divide and Conquer | 2 |
+| Monotonic Stack | 2 |
+| Trie | 1 |
+| Union-Find | 1 |
+| Greedy | 1 |
+| Depth-First Search | 1 |
+| Sliding Window | 1 |
+| Bit Manipulation | 1 |
+
+## Roadmap Status
 
 | # | Topic | Key Concepts | Status |
-|---|-------|-------------|--------|
-| 1 | **Arrays** | Two Pointer, Prefix Sum, Kadane's | 🟡 In Progress |
-| 2 | **Strings** | Sliding Window, Hashing, KMP | 🔴 Upcoming |
-| 3 | **Sliding Window** | Fixed window, Variable window | 🔴 Upcoming |
-| 4 | **Linked List** | Fast-Slow pointer, Reversal | 🔴 Upcoming |
-| 5 | **Trees** | DFS, BFS, BST operations, LCA | 🔴 Upcoming |
-| 6 | **Graphs** | BFS/DFS, Union-Find, Dijkstra | 🔴 Upcoming |
-| 7 | **Dynamic Programming** | Knapsack, LCS, LIS, Coin Change | 🔴 Upcoming |
+|---|---|---|---|
+| 1 | Arrays | Two Pointers, Prefix Sum, Kadane's Algorithm | Active, 33 tagged solved |
+| 2 | Strings | Sliding Window, Hashing, Pattern Matching | Active, 13 tagged solved |
+| 3 | Sliding Window | Fixed Window, Variable Window | Started, 1 tagged solved |
+| 4 | Linked List | Reversal, Fast-Slow Pointer, Merge | Active, 5 tagged solved |
+| 5 | Trees | DFS, BFS, BST, LCA | In progress |
+| 6 | Graphs | BFS, DFS, Union-Find, Shortest Path | Started, 1 Union-Find tagged solved |
+| 7 | Dynamic Programming | Knapsack, LCS, LIS, Coin Change | Active, 6 tagged solved |
+
+## Recent Accepted LeetCode Submissions
+
+LeetCode's public endpoint exposes the latest accepted submissions, not the full solved-title history. Current public solved count is 52; the latest 20 accepted submissions are listed below.
+
+| # | Problem | Accepted At |
+|---:|---|---|
+| 1 | [Minimize Hamming Distance After Swap Operations](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/) | 2026-04-21 17:14 IST |
+| 2 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | 2026-04-21 16:03 IST |
+| 3 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | 2026-04-21 15:28 IST |
+| 4 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | 2026-04-21 13:48 IST |
+| 5 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | 2026-04-20 17:06 IST |
+| 6 | [Text Justification](https://leetcode.com/problems/text-justification/) | 2026-04-20 15:36 IST |
+| 7 | [Plus One](https://leetcode.com/problems/plus-one/) | 2026-04-20 14:23 IST |
+| 8 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | 2026-04-19 18:10 IST |
+| 9 | [Permutations](https://leetcode.com/problems/permutations/) | 2026-04-19 16:53 IST |
+| 10 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | 2026-04-19 15:21 IST |
+| 11 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | 2026-04-19 14:59 IST |
+| 12 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | 2026-04-18 14:51 IST |
+| 13 | [4Sum](https://leetcode.com/problems/4sum/) | 2026-04-18 13:55 IST |
+| 14 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | 2026-04-18 13:50 IST |
+| 15 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | 2026-04-18 02:02 IST |
+| 16 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 2026-04-17 18:19 IST |
+| 17 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | 2026-04-17 11:50 IST |
+| 18 | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | 2026-04-16 15:20 IST |
+| 19 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | 2026-04-16 14:35 IST |
+| 20 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | 2026-04-16 13:28 IST |
+
+## Patterns To Master
+
+| Pattern | Use Case |
+|---|---|
+| Sliding Window | Contiguous subarrays and substrings in O(n) |
+| Two Pointers | Sorted arrays, pairs, triplets, partitioning |
+| BFS / DFS | Tree and graph traversal |
+| Hashing | O(1) lookup and frequency counting |
+| Binary Search | Search-space reduction in O(log n) |
+| Fast and Slow Pointer | Cycle detection and midpoint discovery |
+| Merge Intervals | Overlapping interval problems |
+| Backtracking | Permutations, subsets, combinations |
+| Greedy | Local choices that lead to a global optimum |
+
+## Resources
+
+- [NeetCode.io](https://neetcode.io)
+- [Striver's A2Z DSA Course](https://takeuforward.org/strivers-a2z-dsa-course/)
+- [LeetCode](https://leetcode.com)
+- [GeeksforGeeks](https://www.geeksforgeeks.org/)
 
 ---
 
-## 🧠 Patterns to Master
-
-<table>
-<tr>
-<td align="center"><b>🪟 Sliding Window</b><br/>Contiguous subarrays/substrings in O(n)</td>
-<td align="center"><b>👉 Two Pointer</b><br/>Sorted arrays, pair/triplet problems</td>
-<td align="center"><b>🌊 BFS / DFS</b><br/>Tree/Graph traversal & shortest paths</td>
-</tr>
-<tr>
-<td align="center"><b>🗺️ Hashing</b><br/>O(1) lookup, frequency counting</td>
-<td align="center"><b>📊 Binary Search</b><br/>Search space reduction in O(log n)</td>
-<td align="center"><b>🔗 Fast & Slow Pointer</b><br/>Cycle detection, middle finding</td>
-</tr>
-<tr>
-<td align="center"><b>🧩 Merge Intervals</b><br/>Overlapping interval problems</td>
-<td align="center"><b>🌲 Backtracking</b><br/>Permutations, subsets, N-Queens</td>
-<td align="center"><b>💡 Greedy</b><br/>Local optimal → Global optimal</td>
-</tr>
-</table>
-
----
-
-## 🎯 90-Day DSA Challenge Progress
-
-> **Goal:** Solve 300+ problems across all major topics to become FAANG interview-ready.
-
-<!-- Animated Progress Bar Section -->
-<p align="center">
-
-### 🗓️ Week 1 — Arrays & Hashing
-![Progress](https://progress-bar.xyz/10/?scale=100&title=Week+1+Arrays&width=500&color=ff6b6b&suffix=%25)
-
-### 🗓️ Week 2 — Two Pointers & Sliding Window
-![Progress](https://progress-bar.xyz/0/?scale=100&title=Week+2+TwoPointer&width=500&color=feca57&suffix=%25)
-
-### 🗓️ Week 3 — Binary Search
-![Progress](https://progress-bar.xyz/0/?scale=100&title=Week+3+BinarySearch&width=500&color=48dbfb&suffix=%25)
-
-### 🗓️ Week 4 — Linked Lists
-![Progress](https://progress-bar.xyz/0/?scale=100&title=Week+4+LinkedList&width=500&color=ff9ff3&suffix=%25)
-
-### 🗓️ Week 5–6 — Trees & BST
-![Progress](https://progress-bar.xyz/0/?scale=100&title=Week+5-6+Trees&width=500&color=54a0ff&suffix=%25)
-
-### 🗓️ Week 7–8 — Graphs
-![Progress](https://progress-bar.xyz/0/?scale=100&title=Week+7-8+Graphs&width=500&color=5f27cd&suffix=%25)
-
-### 🗓️ Week 9–10 — Dynamic Programming
-![Progress](https://progress-bar.xyz/0/?scale=100&title=Week+9-10+DP&width=500&color=00d2d3&suffix=%25)
-
-### 🗓️ Week 11–12 — Revision & Mock Interviews
-![Progress](https://progress-bar.xyz/0/?scale=100&title=Week+11-12+Revision&width=500&color=1dd1a1&suffix=%25)
-
-</p>
-
----
-
-## 📅 Daily Log — 90 Days
-
-<details>
-<summary><b>📖 Click to expand Day-by-Day log</b></summary>
-
-| Day | Topic | Problems Solved | Status |
-|-----|-------|----------------|--------|
-| Day 1 | Arrays - TwoSum | LeetCode #1 | ✅ |
-| Day 2 | Arrays - Kadane | Max Subarray | ✅ |
-| Day 3 | Arrays - BestTimeToBuySell | LeetCode #121 | 🔄 In Progress |
-| Day 4–7 | Arrays (Continued) | Rotate Array, Product except self | 🔴 |
-| Day 8–14 | Strings | Anagram, Palindrome, Sliding Window | 🔴 |
-| Day 15–21 | Binary Search | Search Rotated, First/Last Position | 🔴 |
-| Day 22–28 | Linked List | Reverse, Detect Cycle, Merge | 🔴 |
-| Day 29–42 | Trees | Inorder, Level Order, LCA, BST | 🔴 |
-| Day 43–56 | Graphs | BFS, DFS, Islands, Dijkstra | 🔴 |
-| Day 57–70 | Dynamic Programming | Knapsack, LCS, Coin Change | 🔴 |
-| Day 71–84 | Advanced Topics | Trie, Heap, Segment Tree | 🔴 |
-| Day 85–90 | Mock Interviews | Full-length timed practice | 🔴 |
-
-</details>
-
----
-
-## 📊 Overall Progress
-
-```
-Days Completed  : ██░░░░░░░░░░░░░░░░░░  2/90
-Problems Solved : ██░░░░░░░░░░░░░░░░░░  2/300
-Topics Covered  : █░░░░░░░░░░░░░░░░░░░  1/7
-```
-
----
-
-## 🌐 Resources I Follow
-
-- 📺 [NeetCode.io](https://neetcode.io) — Best structured roadmap
-- 📺 [Striver's A2Z Sheet](https://takeuforward.org/strivers-a2z-dsa-course/) — Most comprehensive
-- 📘 [LeetCode](https://leetcode.com) — Practice platform
-- 📘 [GeeksForGeeks](https://www.geeksforgeeks.org/) — Theory & explanations
-
----
-
-<!-- Footer Wave -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" />
-</p>
-
-<p align="center">
-  <i>💪 Consistency beats talent when talent doesn't work hard. — Let's crack FAANG!</i>
-</p>
+Consistency beats talent when talent does not work hard. Let's crack FAANG.
