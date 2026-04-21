@@ -45,11 +45,13 @@
 ---
 
 ### Day 3 --
-**Topic:**
+**Topic:** LeetCode Sync + Repo Polish
 **Problems Solved:**
--
+- Synced public LeetCode progress: 52 total solved
+- Added recent accepted solution files across Arrays, Matrix, Intervals, Backtracking, Stack, DP, Graphs, Binary Search, and Strings
+- Refreshed README with charts, topic summaries, and animated header/footer
 
-**Key Takeaway:**
-**Time Spent:**
+**Key Takeaway:** Keep solved-code folders and progress dashboards synced so revision stays searchable.
+**Time Spent:** 2.5 hours
 
 ---

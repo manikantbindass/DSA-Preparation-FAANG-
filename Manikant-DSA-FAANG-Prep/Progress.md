@@ -1,51 +1,69 @@
 # DSA Progress Tracker
 
-> Track every topic, every problem -- one commit at a time.
+> Track every topic, every solved problem, and every repo update.
 
 ---
 
 ## Overall Status
 
+Last synced from LeetCode profile `manikantbindass`: 2026-04-22, Asia/Calcutta
+
 | Metric | Done | Total | Progress |
-|---|---|---|---|
-| Problems Solved | 6 | 300 | 2% |
-| Topics Covered | 2 | 10 | 20% |
-| Days Completed | 2 | 90 | 2% |
+|---|---:|---:|---:|
+| Problems Solved | 52 | 300 | 17.3% |
+| Easy | 12 | 938 | 1.3% |
+| Medium | 30 | 2,044 | 1.5% |
+| Hard | 10 | 924 | 1.1% |
+| Topics With Activity | 15 | 20+ | Active |
 
 ---
 
 ## Topic Breakdown
 
-| # | Topic | Status | Solved | Key Files |
-|---|---|---|---|---|
+| # | Topic | Status | Solved / Added | Key Files |
+|---|---|---:|---:|---|
 | 01 | Basics | In Progress | 3 | FizzBuzz, PalindromeNumber, PrimeCheck |
-| 02 | Arrays | In Progress | 3 | TwoSum, Kadane, MoveZeroes |
-| 03 | Strings | Upcoming | 0 | - |
-| 04 | Linked List | Upcoming | 0 | - |
-| 05 | Trees | Upcoming | 0 | - |
-| 06 | Recursion & Backtracking | Upcoming | 0 | - |
-| 07 | Stack & Queue | Upcoming | 0 | - |
-| 08 | Hashing | Upcoming | 0 | - |
-| 09 | Dynamic Programming | Upcoming | 0 | - |
-| 10 | Graphs | Upcoming | 0 | - |
+| 02 | Arrays | Active | 33 tagged | TwoSum, Kadane, PlusOne, FourSum, FirstMissingPositive |
+| 03 | Strings | Active | 13 tagged | LongestSubstring, TextJustification |
+| 04 | Matrix | Active | 5 tagged | SpiralMatrixII, SearchA2DMatrix, SetMatrixZeroes |
+| 05 | Intervals | Active | 2 added | InsertInterval, MergeIntervals |
+| 06 | Recursion & Backtracking | Active | 4 tagged | Permutations, PermutationsII, CombinationSum |
+| 07 | Stack & Queue | Active | 4 tagged | LargestRectangleInHistogram |
+| 08 | Binary Search | Active | 6 tagged | SearchRange, RotatedSearchII |
+| 09 | Dynamic Programming | Active | 6 tagged | MinimumPathSum, BestTimeToBuyAndSellStockIII |
+| 10 | Graphs | Started | 1 Union-Find | MinimizeHammingDistanceAfterSwapOperations |
+| 11 | Trees | Practice Target | 0 repo files | DFS, BFS, BST, LCA next |
 
 ---
 
-## Problems Solved
+## Recently Added Solution Files
 
-### 01_Basics
-- [x] FizzBuzz
-- [x] PalindromeNumber -- LeetCode #9
-- [x] PrimeCheck
-
-### 02_Arrays
-- [x] TwoSum -- LeetCode #1
-- [x] Kadane (Maximum Subarray) -- LeetCode #53
-- [x] MoveZeroes -- LeetCode #283
+- [x] Minimize Hamming Distance After Swap Operations
+- [x] Spiral Matrix II
+- [x] Insert Interval
+- [x] Merge Intervals
+- [x] Search a 2D Matrix
+- [x] Text Justification
+- [x] Plus One
+- [x] Permutations II
+- [x] Permutations
+- [x] Remove Duplicates from Sorted Array II
+- [x] First Missing Positive
+- [x] Search in Rotated Sorted Array II
+- [x] 4Sum
+- [x] Largest Rectangle in Histogram
+- [x] Set Matrix Zeroes
+- [x] Find First and Last Position of Element in Sorted Array
+- [x] Combination Sum
+- [x] Best Time to Buy and Sell Stock III
+- [x] Merge Sorted Array
+- [x] Minimum Path Sum
 
 ---
 
 ## Next Up
-- [ ] 03_Strings -- Reverse String, Valid Anagram, Longest Common Prefix
-- [ ] 04_LinkedList -- Reverse Linked List, Detect Cycle
-- [ ] 05_Trees -- Inorder Traversal, Max Depth of Binary Tree
+
+- [ ] Add Trees solutions: Maximum Depth, Inorder Traversal, Validate BST, Lowest Common Ancestor
+- [ ] Add Graph BFS/DFS solutions: Number of Islands, Clone Graph, Course Schedule
+- [ ] Add DP classics: Climbing Stairs, Coin Change, Longest Increasing Subsequence
+- [ ] Keep syncing README and Progress.md after every LeetCode milestone
