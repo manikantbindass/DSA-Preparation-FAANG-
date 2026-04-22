@@ -192,17 +192,47 @@ Use this section like quick radio-button tabs: pick a concept, then open its pan
 | Manacher's Algorithm | Longest palindromic substring | Expand around transformed centers using palindrome radius reuse | O(n) time, O(n) space |
 | Trie | Prefix search, word dictionary, autocomplete, XOR queries | Store characters/bits as tree paths | O(word length) per operation |
 
-### Array and Searching Algorithms
+### Array Algorithms
 
 | Algorithm | Where It Is Used | Best Approach / Key Idea | Typical Complexity |
 |---|---|---|---|
-| Binary Search | Sorted arrays, answer search, lower/upper bound | Search the monotonic boundary, not always the exact value | O(log n) |
 | Prefix Sum | Range sum, subarray sum, difference between intervals | Precompute cumulative values | O(n) build, O(1) query |
 | Difference Array | Range updates, interval increments | Mark start/end deltas, then prefix once | O(n + q) |
 | Kadane's Algorithm | Maximum subarray sum | Track best subarray ending at current index | O(n) |
 | Quickselect | kth largest/smallest | Partition like quicksort but recurse one side | O(n) average |
+
+### Sorting Algorithms
+
+| Algorithm | Where It Is Used | Best Approach / Key Idea | Typical Complexity |
+|---|---|---|---|
 | Merge Sort | Stable sorting, inversion count | Divide, sort halves, merge while counting | O(n log n) |
+| Quick Sort | General sorting, partition-based thinking | Pick pivot, partition smaller/larger, recurse | O(n log n) average, O(n^2) worst |
+| Heap Sort | In-place guaranteed sorting, heap practice | Build heap, repeatedly extract max/min | O(n log n) |
 | Counting Sort | Small bounded integer values | Count frequencies instead of comparing | O(n + k) |
+| Radix Sort | Large integer/string keys with fixed digit length | Sort by each digit using stable counting sort | O(d * (n + b)) |
+| Bucket Sort | Uniformly distributed values | Put values into buckets, sort each bucket | O(n + k) average |
+
+### Searching Algorithms
+
+| Algorithm | Where It Is Used | Best Approach / Key Idea | Typical Complexity |
+|---|---|---|---|
+| Linear Search | Unsorted small input, simple scans | Check every element once | O(n) |
+| Binary Search | Sorted arrays, answer search, lower/upper bound | Search the monotonic boundary, not always the exact value | O(log n) |
+| Ternary Search | Unimodal functions, peak/minimum over continuous/discrete range | Compare two midpoints and discard one side | O(log n) |
+| BFS Search | Shortest path in unweighted state space | Explore states level by level | O(V + E) |
+| DFS Search | Exhaustive path search, components, recursion trees | Explore one branch fully before returning | O(V + E) |
+| A* Search | Pathfinding with heuristic, grids, games | Prioritize `cost_so_far + estimated_remaining` | Depends on heuristic |
+
+### Divide and Conquer Algorithms
+
+| Algorithm | Where It Is Used | Best Approach / Key Idea | Typical Complexity |
+|---|---|---|---|
+| Merge Sort | Sorting, inversion count, linked-list sort | Split, solve halves, combine in sorted order | O(n log n) |
+| Quickselect | kth largest/smallest, median finding | Partition and recurse only into needed side | O(n) average |
+| Binary Search | Search on sorted data or answer range | Use monotonic condition to discard half | O(log n) |
+| Closest Pair of Points | Computational geometry distance problems | Sort by x, solve halves, check middle strip | O(n log n) |
+| Fast Exponentiation | Power, modular exponentiation | Square base and halve exponent | O(log exponent) |
+| Karatsuba Multiplication | Big integer multiplication | Split numbers and reduce multiplication count | O(n^1.585) |
 
 ### Graph Algorithms
 
@@ -250,6 +280,56 @@ Use this section like quick radio-button tabs: pick a concept, then open its pan
 | Combination Sum | Pick numbers with constraints | Recurse with current index and remaining target | Exponential |
 | N-Queens | Constraint placement | Track used columns and diagonals | Exponential |
 | Sudoku Solver | Constraint satisfaction | Fill the most constrained empty cell first | Exponential |
+
+### Number Theory Algorithms
+
+| Algorithm | Where It Is Used | Best Approach / Key Idea | Typical Complexity |
+|---|---|---|---|
+| Sieve of Eratosthenes | Generate primes up to n | Mark multiples of each prime | O(n log log n) |
+| Euclidean GCD | GCD/LCM, fraction simplification | Repeatedly replace `(a, b)` with `(b, a % b)` | O(log min(a, b)) |
+| Extended Euclid | Modular inverse, Diophantine equations | Track coefficients while computing GCD | O(log n) |
+| Modular Exponentiation | Large powers under modulo | Binary exponentiation with modulo each step | O(log exponent) |
+| Fermat's Little Theorem | Modular inverse when mod is prime | `a^(mod-2) % mod` for inverse | O(log mod) |
+| Prime Factorization | Divisor count, factor-based problems | Divide by primes up to sqrt(n) | O(sqrt n) basic |
+| Chinese Remainder Theorem | Combine modular equations | Merge congruences with coprime moduli | O(k log n) |
+
+### Bit Manipulation Algorithms
+
+| Algorithm / Trick | Where It Is Used | Best Approach / Key Idea | Typical Complexity |
+|---|---|---|---|
+| XOR Single Number | Find unique value among pairs | `a ^ a = 0`, `a ^ 0 = a` | O(n) |
+| Bitmask Subsets | Enumerate all subsets of small n | Treat each bit as choose/not choose | O(n * 2^n) |
+| Brian Kernighan's Count | Count set bits | Repeatedly clear lowest set bit with `x &= x - 1` | O(number of set bits) |
+| Check Power of Two | Math/bit check | `n > 0 && (n & (n - 1)) == 0` | O(1) |
+| Bitmask DP | Assignment, TSP-style small n | State is the selected set of items | O(n * 2^n) |
+| Prefix XOR | Range XOR, subarray XOR | Store cumulative XOR values | O(n) build, O(1) query |
+
+### Computational Geometry Algorithms
+
+| Algorithm | Where It Is Used | Best Approach / Key Idea | Typical Complexity |
+|---|---|---|---|
+| Orientation / Cross Product | Turn direction, segment intersection | Sign of cross product tells clockwise/counterclockwise | O(1) |
+| Line Segment Intersection | Geometry validation, sweep-line basics | Combine orientation tests and bounding checks | O(1) per pair |
+| Convex Hull - Graham Scan | Outer boundary of points | Sort by angle, maintain left turns with stack | O(n log n) |
+| Convex Hull - Monotonic Chain | Outer boundary, easier implementation | Sort points, build lower and upper hulls | O(n log n) |
+| Sweep Line | Overlaps, intersections, closest events | Sort events and maintain active set | O(n log n) often |
+| Shoelace Formula | Polygon area | Sum cross products of adjacent vertices | O(n) |
+| Closest Pair of Points | Minimum distance among points | Divide and conquer with middle strip | O(n log n) |
+
+### Advanced Algorithms
+
+| Algorithm | Where It Is Used | Best Approach / Key Idea | Typical Complexity |
+|---|---|---|---|
+| Segment Tree | Range query with updates | Store interval answers in a tree | O(log n) query/update |
+| Fenwick Tree | Prefix sums with updates | Use lowest set bit to jump ranges | O(log n) query/update |
+| Sparse Table | Static range min/max/gcd queries | Precompute powers of two intervals | O(n log n) build, O(1) query |
+| Tarjan's SCC | Strongly connected components | DFS low-link values | O(V + E) |
+| Kosaraju's SCC | Strongly connected components | DFS order, reverse graph, DFS again | O(V + E) |
+| Lowest Common Ancestor | Tree ancestor queries | Binary lifting or Euler tour + RMQ | O(log n) query |
+| Kahn's Algorithm | Topological sort | Queue zero-indegree nodes | O(V + E) |
+| Min-Cost / Max-Flow | Matching, assignment, network capacity | Repeated augmenting paths or Dinic variants | Varies by method |
+| Dinic's Algorithm | Maximum flow | BFS level graph + DFS blocking flow | O(V^2 E) common bound |
+| Aho-Corasick | Multiple pattern matching | Trie plus failure links | O(text + total pattern length + matches) |
 
 </details>
 
