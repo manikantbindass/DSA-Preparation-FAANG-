@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://leetcode.com/u/manikantbindass/"><img src="https://img.shields.io/badge/LeetCode-manikantbindass-f59e0b?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile" /></a>
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Solved-57%20Problems-22c55e?style=for-the-badge" alt="57 solved" />
+  <img src="https://img.shields.io/badge/Solved-58%20Problems-22c55e?style=for-the-badge" alt="58 solved" />
   <img src="https://img.shields.io/badge/Goal-300%20Problems-2563eb?style=for-the-badge" alt="300 problem goal" />
 </p>
 
@@ -19,21 +19,21 @@ Last synced: 2026-04-23, Asia/Calcutta
 
 | Metric | Progress |
 |---|---:|
-| Total solved | 57 |
-| Goal progress | 57 / 300, 19.0% |
+| Total solved | 58 |
+| Goal progress | 58 / 300, 19.3% |
 | Easy | 13 solved |
 | Medium | 33 solved |
 | Hard | 10 solved |
 | Failed attempts still open | 2 Hard |
 | Global rank | 2,457,782 |
 
-![Overall Goal Progress](https://progress-bar.xyz/19/?scale=100&title=Goal+57%2F300&width=700&color=22c55e&suffix=%25)
+![Overall Goal Progress](https://progress-bar.xyz/19/?scale=100&title=Goal+58%2F300&width=700&color=22c55e&suffix=%25)
 
 ```mermaid
 pie showData
     title Solved Problems by Difficulty
     "Easy" : 13
-    "Medium" : 34
+    "Medium" : 35
     "Hard" : 10
 ```
 
@@ -435,10 +435,11 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 57 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 58 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Combination Sum II | Backtracking | [Java](Backtracking/CombinationSumII.java), [Python](Backtracking/CombinationSumII.py), [Go](Backtracking/CombinationSumII.go) |
 | Group Anagrams | Strings | [Java](Strings/GroupAnagrams.java), [Python](Strings/GroupAnagrams.py), [Go](Strings/GroupAnagrams.go) |
 | Intervals Between Identical Elements | Arrays | [Java](Arrays/IntervalsBetweenIdenticalElements.java), [Python](Arrays/IntervalsBetweenIdenticalElements.py), [Go](Arrays/IntervalsBetweenIdenticalElements.go) |
 | Words Within Two Edits of Dictionary | Strings | [Java](Strings/WordsWithinTwoEditsOfDictionary.java) |
@@ -470,16 +471,16 @@ These solution files cover the latest public accepted submissions exposed by Lee
 | Difficulty | Solved | Total LeetCode Questions | Platform Coverage |
 |---|---:|---:|---:|
 | Easy | 13 | 938 | 1.4% |
-| Medium | 34 | 2,044 | 1.7% |
+| Medium | 35 | 2,044 | 1.7% |
 | Hard | 10 | 924 | 1.1% |
-| All | 57 | 3,906 | 1.5% |
+| All | 58 | 3,906 | 1.5% |
 
 | Language | Problems Solved |
 |---|---:|
-| Java | 49 |
-| Go | 10 |
+| Java | 50 |
+| Go | 11 |
 | C++ | 1 |
-| Python | 3 |
+| Python | 4 |
 
 ## Topic Coverage From LeetCode Tags
 
@@ -491,7 +492,7 @@ These solution files cover the latest public accepted submissions exposed by Lee
 | Binary Search | 6 | Dynamic Programming | 6 |
 | Linked List | 5 | Recursion | 5 |
 | Matrix | 5 | Stack | 4 |
-| Backtracking | 4 | Simulation | 3 |
+| Backtracking | 5 | Simulation | 3 |
 | Divide and Conquer | 2 | Monotonic Stack | 2 |
 | Trie | 1 | Union-Find | 1 |
 | Greedy | 1 | Depth-First Search | 1 |
