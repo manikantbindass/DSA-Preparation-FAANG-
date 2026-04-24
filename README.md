@@ -25,7 +25,7 @@ Last synced: 2026-04-23, Asia/Calcutta
 | Medium | 36 solved |
 | Hard | 12 solved |
 | Failed attempts still open | 2 Hard |
-| Global rank | 2,393,491 |
+| Global rank | 2,230,850 |
 
 ![Overall Goal Progress](https://progress-bar.xyz/20/?scale=100&title=Goal+61%2F300&width=700&color=22c55e&suffix=%25)
 
