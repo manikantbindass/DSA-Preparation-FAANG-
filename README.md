@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://leetcode.com/u/manikantbindass/"><img src="https://img.shields.io/badge/LeetCode-manikantbindass-f59e0b?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile" /></a>
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Solved-61%20Problems-22c55e?style=for-the-badge" alt="61 solved" />
+  <img src="https://img.shields.io/badge/Solved-62%20Problems-22c55e?style=for-the-badge" alt="62 solved" />
   <img src="https://img.shields.io/badge/Goal-300%20Problems-2563eb?style=for-the-badge" alt="300 problem goal" />
 </p>
 
@@ -21,25 +21,25 @@ Last synced: 2026-04-24 17:01 UTC
 ### 🚀 LeetCode Stats
 
 ![LeetCode Rank](https://img.shields.io/badge/Rank-2230850-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
-![Solved](https://img.shields.io/badge/Solved-61-22c55e?style=for-the-badge)
-![Goal](https://img.shields.io/badge/Goal-61%2F300-f59e0b?style=for-the-badge)
+![Solved](https://img.shields.io/badge/Solved-62-22c55e?style=for-the-badge)
+![Goal](https://img.shields.io/badge/Goal-62%2F300-f59e0b?style=for-the-badge)
 
 | Metric | Progress |
 |---|---:|
 | Rank | 2,230,850 |
-| Solved | 61 |
+| Solved | 62 |
 | Easy | 13 |
-| Medium | 36 |
+| Medium | 37 |
 | Hard | 12 |
-| Goal progress | 61 / 300, 20.3% |
+| Goal progress | 62 / 300, 20.7% |
 
-![Overall Goal Progress](https://progress-bar.xyz/20/?scale=100&title=Goal+61%2F300&width=700&color=22c55e&suffix=%25)
+![Overall Goal Progress](https://progress-bar.xyz/21/?scale=100&title=Goal+62%2F300&width=700&color=22c55e&suffix=%25)
 
 ```mermaid
 pie showData
     title Solved Problems by Difficulty
     "Easy" : 13
-    "Medium" : 36
+    "Medium" : 37
     "Hard" : 12
 ```
 <!-- LEETCODE-STATS:END -->
@@ -432,10 +432,11 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 58 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 62 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Multiply Strings | Strings | [Java](Strings/MultiplyStrings.java), [Python](Strings/MultiplyStrings.py), [Go](Strings/MultiplyStrings.go) |
 | Minimum Window Substring | SlidingWindow | [Java](SlidingWindow/MinimumWindowSubstring.java), [Python](SlidingWindow/MinimumWindowSubstring.py), [Go](SlidingWindow/MinimumWindowSubstring.go) |
 | Simplify Path | Stack | [Java](Stack/SimplifyPath.java), [Python](Stack/SimplifyPath.py), [Go](Stack/SimplifyPath.go) |
 | Furthest Point From Origin | Strings | [Java](Strings/FurthestPointFromOrigin.java), [Python](Strings/FurthestPointFromOrigin.py), [Go](Strings/FurthestPointFromOrigin.go) |
@@ -471,28 +472,28 @@ These solution files cover the latest public accepted submissions exposed by Lee
 | Difficulty | Solved | Total LeetCode Questions | Platform Coverage |
 |---|---:|---:|---:|
 | Easy | 13 | 938 | 1.4% |
-| Medium | 36 | 2,045 | 1.8% |
+| Medium | 37 | 2,045 | 1.8% |
 | Hard | 12 | 924 | 1.3% |
-| All | 61 | 3,907 | 1.6% |
+| All | 62 | 3,907 | 1.6% |
 
 | Language | Problems Solved |
 |---|---:|
-| Java | 53 |
-| Go | 10 |
-| Python | 6 |
+| Java | 54 |
+| Go | 11 |
+| Python | 7 |
 | C++ | 1 |
 
 ## Topic Coverage From LeetCode Tags
 
 | Topic | Problems Solved | Topic | Problems Solved |
 |---|---:|---|---:|
-| Array | 37 | String | 20 |
-| Two Pointers | 11 | Math | 8 |
+| Array | 37 | String | 21 |
+| Two Pointers | 11 | Math | 9 |
 | Hash Table | 11 | Sorting | 8 |
 | Binary Search | 6 | Dynamic Programming | 6 |
 | Linked List | 5 | Recursion | 5 |
 | Matrix | 5 | Stack | 5 |
-| Backtracking | 5 | Simulation | 4 |
+| Backtracking | 5 | Simulation | 5 |
 | Divide and Conquer | 2 | Monotonic Stack | 2 |
 | Trie | 2 | Union-Find | 1 |
 | Greedy | 1 | Depth-First Search | 1 |
