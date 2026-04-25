@@ -59,6 +59,7 @@ DSA-Preparation-FAANG-/
 |-- Strings/        Sliding window and formatting
 |-- Trees/          Tree practice area
 |-- Notes/          Pattern notes and cheat sheets
+|-- resources/      Jupyter notebook guide for core interview algorithms
 `-- Manikant-DSA-FAANG-Prep/  Daily logs and extra practice structure
 ```
 
@@ -523,7 +524,9 @@ These solution files cover the latest public accepted submissions exposed by Lee
 - [Striver's A2Z DSA Course](https://takeuforward.org/strivers-a2z-dsa-course/)
 - [LeetCode](https://leetcode.com)
 - [GeeksforGeeks](https://www.geeksforgeeks.org/)
+- [Complete Interview Algorithms Guide Notebook](resources/Complete_Interview_Algorithms_Guide.ipynb)
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:f59e0b,45:2563eb,100:0f172a&height=130&section=footer&animation=twinkling" alt="Animated footer" />
 </p>
+
