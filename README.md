@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://leetcode.com/u/manikantbindass/"><img src="https://img.shields.io/badge/LeetCode-manikantbindass-f59e0b?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile" /></a>
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Solved-70%20Problems-22c55e?style=for-the-badge" alt="70 solved" />
+  <img src="https://img.shields.io/badge/Solved-70%20Problems-22c55e?style=for-the-badge" alt="73 solved" />
   <img src="https://img.shields.io/badge/Goal-300%20Problems-2563eb?style=for-the-badge" alt="300 problem goal" />
 </p>
 
