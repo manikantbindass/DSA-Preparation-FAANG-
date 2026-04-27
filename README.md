@@ -437,6 +437,9 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Check if There is a Valid Path in a Grid | Graphs | [Java](Graphs/CheckIfThereIsAValidPathInAGrid.java), [Python](Graphs/CheckIfThereIsAValidPathInAGrid.py), [Go](Graphs/CheckIfThereIsAValidPathInAGrid.go) |
+| Valid Sudoku | Matrix | [Java](Matrix/ValidSudoku.java), [Python](Matrix/ValidSudoku.py), [Go](Matrix/ValidSudoku.go) |
+| Jump Game II | Arrays | [Java](Arrays/JumpGameII.java), [Python](Arrays/JumpGameII.py), [Go](Arrays/JumpGameII.go) |
 | Word Search | Backtracking | [Java](Backtracking/WordSearch.java), [Python](Backtracking/WordSearch.py), [Go](Backtracking/WordSearch.go) |
 | Detect Cycles in 2D Grid | Graphs | [Java](Graphs/DetectCyclesIn2DGrid.java), [Python](Graphs/DetectCyclesIn2DGrid.py), [Go](Graphs/DetectCyclesIn2DGrid.go) |
 | Subsets | Backtracking | [Java](Backtracking/Subsets.java), [Python](Backtracking/Subsets.py), [Go](Backtracking/Subsets.go) |
