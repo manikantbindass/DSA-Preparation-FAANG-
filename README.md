@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://leetcode.com/u/manikantbindass/"><img src="https://img.shields.io/badge/LeetCode-manikantbindass-f59e0b?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile" /></a>
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Solved-82%20Problems-22c55e?style=for-the-badge" alt="82 solved" />
+  <img src="https://img.shields.io/badge/Solved-85%20Problems-22c55e?style=for-the-badge" alt="85 solved" />
   <img src="https://img.shields.io/badge/Goal-300%20Problems-2563eb?style=for-the-badge" alt="300 problem goal" />
 </p>
 
@@ -16,30 +16,30 @@ This repository tracks my FAANG-level DSA preparation with Java implementations,
 ## Progress Dashboard
 
 <!-- LEETCODE-STATS:START -->
-Last synced: 2026-05-01 08:14 UTC
+Last synced: 2026-05-01 09:20 UTC
 
 ### 🚀 LeetCode Stats
 
 ![LeetCode Rank](https://img.shields.io/badge/Rank-1755909-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
-![Solved](https://img.shields.io/badge/Solved-83-22c55e?style=for-the-badge)
-![Goal](https://img.shields.io/badge/Goal-83%2F300-f59e0b?style=for-the-badge)
+![Solved](https://img.shields.io/badge/Solved-85-22c55e?style=for-the-badge)
+![Goal](https://img.shields.io/badge/Goal-85%2F300-f59e0b?style=for-the-badge)
 
 | Metric | Progress |
 |---|---:|
 | Rank | 1,755,909 |
-| Solved | 83 |
+| Solved | 85 |
 | Easy | 14 |
-| Medium | 51 |
+| Medium | 52 |
 | Hard | 18 |
-| Goal progress | 83 / 300, 27.7% |
+| Goal progress | 85 / 300, 28.3% |
 
-![Overall Goal Progress](https://progress-bar.xyz/28/?scale=100&title=Goal+83%2F300&width=700&color=22c55e&suffix=%25)
+![Overall Goal Progress](https://progress-bar.xyz/28/?scale=100&title=Goal+85%2F300&width=700&color=22c55e&suffix=%25)
 
 ```mermaid
 pie showData
     title Solved Problems by Difficulty
     "Easy" : 14
-    "Medium" : 51
+    "Medium" : 52
     "Hard" : 18
 ```
 <!-- LEETCODE-STATS:END -->
@@ -433,10 +433,13 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 82 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 85 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Rotate Function | Arrays | [Java](Arrays/RotateFunction.java), [Python](Arrays/RotateFunction.py), [Go](Arrays/RotateFunction.go) |
+| Unique Paths II | DP | [Java](DP/UniquePathsII.java), [Python](DP/UniquePathsII.py), [Go](DP/UniquePathsII.go) |
+| Jump Game | Arrays | [Java](Arrays/JumpGame.java), [Python](Arrays/JumpGame.py), [Go](Arrays/JumpGame.go) |
 | Maximum Path Score in a Grid | DP | [Java](DP/MaximumPathScoreInAGrid.java), [Python](DP/MaximumPathScoreInAGrid.py), [Go](DP/MaximumPathScoreInAGrid.go) |
 | Sudoku Solver | Backtracking | [Java](Backtracking/SudokuSolver.java), [Python](Backtracking/SudokuSolver.py), [Go](Backtracking/SudokuSolver.go) |
 | Spiral Matrix | Matrix | [Java](Matrix/SpiralMatrix.java), [Python](Matrix/SpiralMatrix.py), [Go](Matrix/SpiralMatrix.go) |
@@ -493,31 +496,31 @@ These solution files cover the latest public accepted submissions exposed by Lee
 | Difficulty | Solved | Total LeetCode Questions | Platform Coverage |
 |---|---:|---:|---:|
 | Easy | 14 | 938 | 1.5% |
-| Medium | 49 | 2,045 | 2.4% |
+| Medium | 52 | 2,045 | 2.5% |
 | Hard | 18 | 924 | 1.9% |
-| All | 82 | 3,907 | 2.1% |
+| All | 85 | 3,907 | 2.2% |
 
 | Language | Problems Solved |
 |---|---:|
-| Java | 71 |
-| Go | 28 |
-| Python | 24 |
+| Java | 74 |
+| Go | 31 |
+| Python | 27 |
 | C++ | 1 |
 
 ## Topic Coverage From LeetCode Tags
 
 | Topic | Problems Solved | Topic | Problems Solved |
 |---|---:|---|---:|
-| Array | 50 | String | 23 |
-| Two Pointers | 14 | Math | 12 |
+| Array | 53 | String | 23 |
+| Two Pointers | 14 | Math | 13 |
 | Hash Table | 11 | Sorting | 10 |
-| Binary Search | 7 | Dynamic Programming | 10 |
+| Binary Search | 7 | Dynamic Programming | 13 |
 | Linked List | 6 | Recursion | 5 |
-| Matrix | 13 | Stack | 6 |
+| Matrix | 14 | Stack | 6 |
 | Backtracking | 10 | Simulation | 6 |
 | Divide and Conquer | 3 | Monotonic Stack | 3 |
 | Trie | 2 | Union-Find | 2 |
-| Greedy | 1 | Depth-First Search | 3 |
+| Greedy | 2 | Depth-First Search | 3 |
 | Sliding Window | 3 | Bit Manipulation | 2 |
 | Geometry | 1 | Prefix Sum | 1 |
 
